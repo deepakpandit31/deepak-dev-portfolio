@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+/* Ensure Tailwind 4 respects the .dark class */
+@custom-variant dark (&:where(.dark, .dark *));
+
+.dark {
+  --bg: #0a0a0a;
+  --text: #f5f5f5;
+  color-scheme: dark;
+}
+
+.light {
+  --bg: #ffffff;
+  --text: #171717;
+  color-scheme: light;
+}
