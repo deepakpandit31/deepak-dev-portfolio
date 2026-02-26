@@ -1,73 +1,121 @@
-# React + TypeScript + Vite
+# 🌐 Deepak.dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated **freelance developer portfolio** built to showcase my skills, projects, and services in a clean and aesthetic way.
 
-Currently, two official plugins are available:
+This portfolio focuses on **performance, smooth animations, and a great user experience**, with full dark mode support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚡ Modern React + TypeScript setup
+- 🎨 Clean UI with Tailwind CSS (Dark & Light mode)
+- 🌓 Theme toggle with system preference support
+- 🎥 Smooth animations using Motion
+- 📱 Fully responsive on all devices
+- 🧩 Reusable and well-structured components
+- 🚀 Fast development setup using Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React** – UI library
+- **TypeScript** – Type safety
+- **Vite** – Fast build tool
+- **Tailwind CSS (v4)** – Styling
+- **Motion One** – Animations
+- **Lucide Icons** – Clean SVG icons
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📂 Project Structure
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+freelance-dev-portfolio/
+├─ src/
+│ ├─ App.tsx
+│ ├─ main.tsx
+│ └─ index.css
+├─ index.html
+├─ package.json
+├─ vite.config.ts
+└─ README.md
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/deepak-dev-portfolio.git
+2️⃣ Go to project folder
+cd deepak-dev-portfolio
+3️⃣ Install dependencies
+npm install
+4️⃣ Start development server
+npm run dev
+
+Open your browser and visit:
+
+http://localhost:5173
+🌙 Dark Mode
+
+The website supports dark and light themes:
+
+Automatically remembers your preference
+
+Can be toggled from the navbar
+
+📸 Projects Included
+
+Laundry Services Website – Responsive business website
+
+Open Source Work – GitHub profile and repositories
+
+More projects coming soon…
+
+👤 About Me
+
+I’m Deepak, a freelance web developer focused on building:
+
+Clean and modern websites
+
+High-performance frontend applications
+
+Responsive and accessible user interfaces
+
+📬 Contact
+
+💼 LinkedIn: https://www.linkedin.com/in/deepak-sikhwal-67a976287/
+
+🐙 GitHub: https://github.com/deepakpandit31
+
+📧 Email: hello@example.com
+
+📄 License
+
+This project is open-source and free to use for learning and inspiration.
+
+
+---
+
+## 🔥 Why this README works
+
+- Easy to read (no long boring paragraphs)
+- Looks professional on GitHub
+- Good for recruiters + clients
+- Clear tech stack and setup steps
+- Matches your **Deepak.dev** branding
+
+---
+
+If you want, next I can:
+- make it more **client-focused**
+- add **screenshots section**
+- write a **Netlify/Vercel deployment section**
+- optimize it for **recruiters**
+
+Just tell me what you want next 😊
