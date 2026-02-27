@@ -443,7 +443,7 @@ export default function App() {
 
           <FadeIn delay={0.5}>
             <div className="mt-24 pt-12 border-t border-zinc-100 dark:border-zinc-800 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-zinc-500">
-              <p>© 2024 Freelance Dev Portfolio. All rights reserved.</p>
+              <p>© 2026 Freelance Dev Portfolio. All rights reserved.</p>
               <div className="flex gap-8">
                 <a href="#" className="hover:text-indigo-600 transition-colors">Privacy Policy</a>
                 <a href="#" className="hover:text-indigo-600 transition-colors">Terms of Service</a>
