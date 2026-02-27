@@ -423,7 +423,7 @@ export default function App() {
               { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/deepak-sikhwal-67a976287/", color: "hover:bg-indigo-600" },
               { icon: Github, label: "GitHub", href: "https://github.com/deepakpandit31", color: "hover:bg-zinc-800" },
               { icon: MessageSquare, label: "WhatsApp", href: "https://wa.me/6378196988", color: "hover:bg-green-600" },
-              { icon: Mail, label: "Email", href: "mailto:deepakpandit07@gmail.com", color: "hover:bg-red-500" }
+              { icon: Mail, label: "Email", href: "mailto:deepaksikhwalt07@gmail.com", color: "hover:bg-red-500" }
             ].map((link, i) => (
               <div key={i}>
                 <FadeIn delay={i * 0.1} direction="none">
